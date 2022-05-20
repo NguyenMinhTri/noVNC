@@ -151,7 +151,7 @@ const UI = {
         // Logging selection dropdown
         const llevels = ['error', 'warn', 'info', 'debug'];
         for (let i = 0; i < llevels.length; i += 1) {
-            UI.addOption(document.getElementById('noVNC_setting_logging'), llevels[i], llevels[i]);
+           
         }
 
         // Settings with immediate effects
@@ -1726,13 +1726,7 @@ const UI = {
         }
     },
 
-    //Helper to add options to dropdown.
-    addOption(selectbox, text, value) {
-        const optn = document.createElement("OPTION");
-        optn.text = text;
-        optn.value = value;
-        selectbox.options.add(optn);
-    },
+
 
 /* ------^-------
  *    /MISC
