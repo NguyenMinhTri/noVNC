@@ -13,7 +13,7 @@ export default class Cursor {
         this._target = null;
 
         this._canvas = document.createElement('canvas');
-
+        this._canvas.style.display = 'none';
         if (useFallback) {
             this._canvas.style.position = 'fixed';
             this._canvas.style.zIndex = '65535';
