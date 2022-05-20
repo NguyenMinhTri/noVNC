@@ -31,7 +31,7 @@ let _supportsCursorURIs = false;
 
 try {
     const target = document.createElement('canvas');
-    target.style.cursor = '';
+   
 
     if (target.style.cursor.indexOf("url") === 0) {
         Log.Info("Data URI scheme cursor supported");
