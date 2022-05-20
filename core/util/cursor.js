@@ -100,7 +100,7 @@ export default class Cursor {
     }
 
     clear() {
-        this._target.style.cursor = 'none';
+        
         this._canvas.width = 0;
         this._canvas.height = 0;
         this._position.x = this._position.x + this._hotSpot.x;
