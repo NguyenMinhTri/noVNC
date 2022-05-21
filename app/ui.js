@@ -129,7 +129,11 @@ const UI = {
             // Show the connect panel on first load unless autoconnecting
             UI.openConnectPanel();
         }
+        try {
+            loadingSuccess.postMessage("hello");
+        } catch (error) {
 
+        }
         return Promise.resolve(UI.rfb);
     },
 
