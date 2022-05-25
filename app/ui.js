@@ -1709,7 +1709,7 @@ const UI = {
     updateDesktopName(e) {
         UI.desktopName = e.detail.name;
         // Display the desktop name in the document title
-        document.title = e.detail.name + " - " + PAGE_TITLE;
+        document.title = "Navis - Smart Industry";
     },
 
     bell(e) {
