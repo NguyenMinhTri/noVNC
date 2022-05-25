@@ -173,12 +173,12 @@
 
         // Set parameters that can be changed on an active connection
         rfb.viewOnly = readQueryVariable('view_only', false);
-        rfb.scaleViewport = readQueryVariable('scale', false);
+        rfb.scaleViewport = readQueryVariable('scale', true);
     </script>
 </head>
 
 <body>
-    <div id="top_bar">
+    <div id="top_bar" style="display:none">
         <div id="status">Loading</div>
         <div id="sendCtrlAltDelButton">Send CtrlAltDel</div>
     </div>
